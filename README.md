@@ -40,7 +40,7 @@ I'm Chikara Inohara, an Infrastructure Engineer based in Nagoya, Japan, with a p
 <br><br>
 - 📚 I am on a dedicated 2-year journey to transition into a <b>DevOps/SRE Engineer</b> role. My learning roadmap is structured to master cloud-native technologies, automation, and site reliability principles. I am currently focused on deepening my knowledge of <b>Linux</b>, <b>Networking</b>, and <b>Python</b> for automation.
 <br><br>
-- ⚡ In my free time, I'm actively building and experimenting in my <b>home lab</b>, documenting my projects and learning progress on <a href="https://qiita.com/chikara_inohara">Qiita</a>, and contributing to open-source. My background in sales and hospitality has equipped me with strong communication and problem-solving skills, which I apply to my technical work.
+- ⚡ In my free time, I'm actively building and experimenting in my <b>home lab</b>, documenting my projects and learning progress on <a href="https://qiita.com/chikara_inohara">Qiita</a> and <a href="https://dev.to/chikarainohara">DEV.to</a>, and contributing to open-source. My background in sales and hospitality has equipped me with strong communication and problem-solving skills, which I apply to my technical work.
 </p>
 
 ###
