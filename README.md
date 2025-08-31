@@ -51,9 +51,9 @@ I'm Chikara Inohara, an Infrastructure Engineer based in Nagoya, Japan, with a p
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cisco/cisco-original-wordmark.svg" height="40" alt="cisco logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/cisco.svg" height="40" alt="cisco logo"  />
   <img width="12" />
-  <img src="https://github.com/devicons/devicon/tree/v2.17.0/icons/vsphere/vsphere-original.svg" height="40" alt="vmware logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/vmware.webp" height="40" alt="vmware logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/proxmox-light.webp" height="40" alt="proxmox logo"  />
   <img width="12" />
