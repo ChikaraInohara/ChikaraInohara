@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+  <img height="150" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzJtbjBqOGhpaWFibDVmbWx1MDZqdWtucXUycDZtc3RyODJ3ZjRtcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OumCa12QC9CIvBe2c1/giphy.gif"  />
 </div>
 
 ###
@@ -36,9 +36,9 @@
 <p align="left">
 I'm Chikara Inohara, an Infrastructure Engineer based in Nagoya, Japan, with a passion for building reliable and scalable systems.
 <br><br>
-- 🔭 I’m currently building my expertise as an Infrastructure Engineer at Chubu Telecommunications, where I focus on standardizing and operating server virtualization platforms like <b>VMware</b> and <b>Proxmox</b>.
+- 🔭 I’m currently building my expertise as an Infrastructure Engineer, where I focus on standardizing and operating server virtualization platforms like <b>VMware</b> and <b>Proxmox</b>.
 <br><br>
-- 📚 I am on a dedicated 2-year journey to transition into a <b>DevOps/SRE Engineer</b> role. My learning roadmap is structured to master cloud-native technologies, automation, and site reliability principles. I am currently focused on deepening my knowledge of <b>Linux (LPIC-1)</b>, <b>Networking (CCNA)</b>, and <b>Python</b> for automation.
+- 📚 I am on a dedicated 2-year journey to transition into a <b>DevOps/SRE Engineer</b> role. My learning roadmap is structured to master cloud-native technologies, automation, and site reliability principles. I am currently focused on deepening my knowledge of <b>Linux</b>, <b>Networking</b>, and <b>Python</b> for automation.
 <br><br>
 - ⚡ In my free time, I'm actively building and experimenting in my <b>home lab</b>, documenting my projects and learning progress on <a href="https://qiita.com/chikara_inohara">Qiita</a>, and contributing to open-source. My background in sales and hospitality has equipped me with strong communication and problem-solving skills, which I apply to my technical work.
 </p>
