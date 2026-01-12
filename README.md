@@ -24,50 +24,67 @@
 <h3 align="left">👩‍💻 About Me</h3>
 
 <p align="left">
-I'm an Infrastructure Engineer based in Nagoya, Japan, transitioning into a <b>DevOps/SRE</b> role.
-With a strong background in on-premise virtualization (VMware/Proxmox) and networking, I am now bridging the gap between infrastructure and software development. 
+I'm an Infrastructure Engineer based in Nagoya, Japan, passionate about building reliable and scalable systems. My background in non-tech industries has equipped me with strong communication and problem-solving skills, which I now apply to the world of technology. 
 
-Currently, I am:
-- 🎓 Studying Computer Science at <b>University of the People</b> (Class of 2028).
-- ☁️ Developing <b>Project Kumo</b>, a modern, open-source dashboard for Proxmox VE.
-- 🚀 Deepening my knowledge in Cloud Native technologies (Kubernetes, Docker, IaC).
+I am currently an undergraduate student in **Computer Science at the University of the People (Class of 2028)**.
+My long-term goal is to move to **Australia in 2029** to pursue a Master of Information Technology at the **University of Southern Queensland (UniSQ)**.
+
+I'm focused on on-premise virtualization technologies and am on a structured journey to transition into a DevOps/SRE role where I can help build and maintain modern, cloud-native service infrastructure.
 </p>
 
 ###
 
-<h3 align="left">🔥 Featured Project</h3>
+<h3 align="left">🚀 My Journey to DevOps/SRE (2025 - 2027)</h3>
+<p align="left">
+I am on a dedicated roadmap to achieve my goal of becoming a DevOps/SRE Engineer. My progress and projects are documented in my <b>home lab</b>, on <a href="https://qiita.com/chikara_inohara">Qiita(JP)</a>, <a href="https://dev.to/chikarainohara">DEV.to(ENG)</a>, and here on GitHub.
+</p>
 
-| **Project Kumo** |
-| :--- |
-| **"Proxmox for Everyone"** <br> A modern, user-friendly cloud management dashboard for Proxmox VE. Built with **Next.js**, **FastAPI**, and **Docker**. <br> <br> 🔗 [View Repository](https://github.com/ChikaraInohara/project-kumo) |
+- **Phase 1 (Months 1-6): Foundational Skills**
+  - **Goal:** Solidify core infrastructure knowledge and make public output a habit.
+  - **Focus:** Linux, Networking (Cisco/Yamaha), Python, Bash scripting, and Proxmox VE.
+
+- **Phase 2 (Months 6-12): Cloud, Containers & IaC**
+  - **Goal:** Move from manual configuration to automated, code-defined infrastructure.
+  - **Focus:** AWS (SAA), Terraform (IaC), and Docker for containerization.
+
+- **Phase 3 (Months 12-18): Orchestration & CI/CD**
+  - **Goal:** Build automated pipelines to deploy containerized applications.
+  - **Focus:** Kubernetes (K3s) for orchestration and GitHub Actions for CI/CD. This will form the core of my portfolio.
+
+- **Phase 4 (Months 18-24): SRE Practices & Career Launch**
+  - **Goal:** Learn to monitor and improve system reliability and prepare for migration.
+  - **Focus:** Prometheus & Grafana for observability, Go language basics, and polishing my professional portfolio.
 
 ###
 
 <h3 align="left">🛠️ Tech Stack</h3>
 
-**Infrastructure & Cloud:**
+**Core Technologies:**
 <p align="left">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/cisco-%231BA0D7.svg?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco" />
   <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" />
   <img src="https://img.shields.io/badge/VMware-666666?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/cisco-%231BA0D7.svg?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
-**Development & Automation:**
+**Technologies I'm Learning:**
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
 </p>
 
 ###
 
-<h3 align="left">📈 My Stats</h3>
+<h3 align="left">🔥 My Stats</h3>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=chikarainohara&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="220" alt="streak graph"  />
