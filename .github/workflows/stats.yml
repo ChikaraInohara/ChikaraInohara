@@ -25,9 +25,6 @@ on:
     - cron: "0 18 * * *"
   # 手で今すぐ更新したいとき用（Actions タブ → Run workflow）
   workflow_dispatch:
-  # ⚠️ 検証用。マージ前に消す
-  push:
-    branches: [chore/stats-cards]
 
 # 生成した SVG をコミットするので書き込み権限が要る。
 # ⚠️ この1行が無いと `GITHUB_TOKEN` は読み取り専用で、push で落ちる
