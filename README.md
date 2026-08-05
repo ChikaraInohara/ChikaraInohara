@@ -87,15 +87,15 @@ I actively design, deploy, and break things in my <b>home lab</b> to deepen my u
 </div>
 
 <div align="center">
-  <img src="./assets/streak.svg" height="200" alt="streak graph" />
+  <img src="./assets/streak.svg" height="170" alt="streak graph" />
   &nbsp;
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" height="200" alt="stats graph" />
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" height="170" alt="stats graph" />
 </div>
 
 <div align="center">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" height="200" alt="repos per language" />
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" height="150" alt="repos per language" />
   &nbsp;
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" height="200" alt="most commit language" />
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" height="150" alt="most commit language" />
   &nbsp;
-  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" height="200" alt="productive time" />
+  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" height="150" alt="productive time" />
 </div>
