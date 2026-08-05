@@ -1,0 +1,77 @@
+name: Refresh stats cards
+
+# 🔴 何を直したのか
+#
+# README に貼っていたカードは、**みんなで共有している公開インスタンスを
+# 見に来た人が毎回その場で叩く**作りだった。だから相手が混んでいれば
+# プロフィールに壊れた画像が出る。実際 github-readme-stats.vercel.app は
+# 一時的な混雑ではなく **継続的に 503** を返していた（4回試して全部503）。
+#
+# そこで方針を変えた:
+#   1. 数字のカードは **この Actions の中で自前生成する**。
+#      GitHub の API を直接読むので、他人のサーバーの調子に左右されない
+#   2. 連続日数のカードだけは自前生成の対象に無いので、1日1回取り込む
+#   3. どちらも SVG をこのリポジトリに置き、README はそれを貼る。
+#      → **取得に失敗した日も、前回のカードが表示され続ける**
+#
+# ⚠️ 個人アクセストークン（PAT）は使わない。
+# Actions が自動で持っている `GITHUB_TOKEN` だけで足りる。
+# PAT は期限が切れると**黙って壊れて、半年後に同じことが起きる**。
+
+on:
+  schedule:
+    # 毎日 03:00 JST（= 18:00 UTC）。
+    # 00:00 UTC ちょうどは GitHub 側が混むので外している
+    - cron: "0 18 * * *"
+  # 手で今すぐ更新したいとき用（Actions タブ → Run workflow）
+  workflow_dispatch:
+  # ⚠️ 検証用。マージ前に消す
+  push:
+    branches: [chore/stats-cards]
+
+# 生成した SVG をコミットするので書き込み権限が要る。
+# ⚠️ この1行が無いと `GITHUB_TOKEN` は読み取り専用で、push で落ちる
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 数字のカード（プロフィール・言語・コミット統計・活動時間帯）。
+      # ⚠️ AUTO_PUSH は false。ここで push させると streak の分と
+      # コミットが2回に割れ、履歴が毎日2行増える
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          # 日本時間。活動時間帯のカードがこれでずれる
+          UTC_OFFSET: 9
+          AUTO_PUSH: false
+          # README の他の部分が暗い配色なので合わせる
+          THEME: "github_dark"
+
+      # 連続コミット日数のカード
+      - name: Download streak card
+        run: bash .github/scripts/fetch-stats.sh
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain assets profile-summary-card-output)" ]; then
+            echo "変化なし。コミットしない"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets profile-summary-card-output
+          git commit -m "Refresh stats cards"
+          git push

@@ -76,8 +76,26 @@ I actively design, deploy, and break things in my <b>home lab</b> to deepen my u
 
 <h3 align="left">🔥 My Stats</h3>
 
+<!--
+  ⚠️ ここの画像は毎日 GitHub Actions が作り直している（.github/workflows/stats.yml）。
+  外部サービスのURLを直接貼らないこと。相手が落ちている日に
+  プロフィールが壊れて見える（実際それで壊れていた）。
+-->
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=chikarainohara&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&v=2" height="220" alt="streak graph" />
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="820" alt="profile details" />
+</div>
+
+<div align="center">
+  <img src="./assets/streak.svg" height="200" alt="streak graph" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=chikarainohara&show_icons=true&theme=dark&hide_border=false&border_radius=5&v=2" height="220" alt="stats graph" />
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" height="200" alt="stats graph" />
+</div>
+
+<div align="center">
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" height="200" alt="repos per language" />
+  &nbsp;
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" height="200" alt="most commit language" />
+  &nbsp;
+  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" height="200" alt="productive time" />
 </div>
