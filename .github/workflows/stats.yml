@@ -60,6 +60,12 @@ jobs:
           # README の他の部分が暗い配色なので合わせる
           THEME: "github_dark"
 
+      # 🔴 生成器はプロフィールの公開メールアドレスをカードに焼き込む。
+      # プロフィールページに出ているものではあるが、**コミットされて
+      # 履歴に残る**のは別の話なので、貼る前に落とす
+      - name: Strip email from cards
+        run: python3 .github/scripts/strip-email.py
+
       # 連続コミット日数のカード
       - name: Download streak card
         run: bash .github/scripts/fetch-stats.sh
