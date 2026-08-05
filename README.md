@@ -77,7 +77,7 @@ I actively design, deploy, and break things in my <b>home lab</b> to deepen my u
 <h3 align="left">🔥 My Stats</h3>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=chikarainohara&amp;locale=en&amp;mode=daily&amp;theme=dark&amp;hide_border=false&amp;border_radius=5&amp;v=1" height="220" alt="streak graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=chikarainohara&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&v=2" height="220" alt="streak graph" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=chikarainohara&amp;show_icons=true&amp;theme=dark&amp;hide_border=false&amp;border_radius=5&amp;count_private=true&amp;v=1" height="220" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=chikarainohara&show_icons=true&theme=dark&hide_border=false&border_radius=5&v=2" height="220" alt="stats graph" />
 </div>
