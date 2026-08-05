@@ -1,21 +1,21 @@
 <div align="center">
-  <img height="150" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzJtbjBqOGhpaWFibDVmbWx1MDZqdWtucXUycDZtc3RyODJ3ZjRtcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OumCa12QC9CIvBe2c1/giphy.gif"  />
+  <img height="150" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzJtbjBqOGhpaWFibDVmbWx1MDZqdWtucXUycDZtc3RyODJ3ZjRtcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OumCa12QC9CIvBe2c1/giphy.gif" />
 </div>
 
 <h1 align="center">Hi! I'm Chikara Inohara 👋</h1>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/chikara-inohara" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
   </a>
   <a href="https://x.com/InoharaChikara" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo" />
   </a>
   <a href="https://qiita.com/chikara_inohara" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Qiita&logo=qiita&label=&color=55C500&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="qiita logo"  />
+    <img src="https://img.shields.io/static/v1?message=Qiita&logo=qiita&label=&color=55C500&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="qiita logo" />
   </a>
   <a href="https://dev.to/chikarainohara" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=DEV.TO&logo=devdotto&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="dev.to logo"  />
+    <img src="https://img.shields.io/static/v1?message=DEV.TO&logo=devdotto&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="dev.to logo" />
   </a>
 </p>
 
@@ -25,13 +25,14 @@
 
 <p align="left">
 I'm an Infrastructure Engineer based in Japan, passionate about building highly reliable, automated, and scalable systems. With a strong foundation in on-premise virtualization (Proxmox VE / VMware) and Linux server administration, I specialize in bridging the gap between traditional infrastructure and modern cloud-native practices.
-
+<br><br>
 I am currently an undergraduate student in <b>Computer Science at the University of the People (Class of 2028)</b>, continuously expanding my academic and practical knowledge. My goal is to become a top-tier DevOps/SRE professional who can design robust architectures, automate operational toil with IaC, and ensure service availability through advanced observability.
 </p>
 
 ###
 
 <h3 align="left">🚀 My Engineering Journey & Focus</h3>
+
 <p align="left">
 I actively design, deploy, and break things in my <b>home lab</b> to deepen my understanding of distributed systems and automation. My progress and projects are documented on <a href="https://qiita.com/chikara_inohara">Qiita(JP)</a>, <a href="https://dev.to/chikarainohara">DEV.to(ENG)</a>, and here on GitHub.
 </p>
@@ -76,6 +77,6 @@ I actively design, deploy, and break things in my <b>home lab</b> to deepen my u
 <h3 align="left">🔥 My Stats</h3>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=chikarainohara&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="220" alt="streak graph"  />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=chikarainohara&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="220" alt="streak graph" />
   <img src="https://github-readme-stats.vercel.app/api?username=chikarainohara&show_icons=true&theme=dark&hide_border=false&border_radius=5" height="220" alt="stats graph" />
 </div>
